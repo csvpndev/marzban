@@ -64,7 +64,7 @@ wget -O /opt/marzban/.env "https://raw.githubusercontent.com/GawrAme/MarLing/mai
 
 #profile
 echo -e 'profile' >> /root/.profile
-wget -O /usr/bin/profile "https://raw.githubusercontent.com/GawrAme/MarLing/main/profile";
+wget -O /usr/bin/profile "https://raw.githubusercontent.com/csvpndev/marzban/main/profile";
 chmod +x /usr/bin/profile
 apt install neofetch -y
 wget -O /usr/bin/cekservice "https://raw.githubusercontent.com/GawrAme/MarLing/main/cekservice.sh"
