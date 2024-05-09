@@ -101,8 +101,9 @@ Jika anda berminat bisa join ke Telegram channel saya di :<a href="https://t.me/
 <br>
 
 Jika menurut pean script ini membantu, boleh kira nya membelikan saya secangkir kopi melalui QRis dibawah, berapapun nominal nya saya terima 🙏 <br>
-![image](https://github.com/GawrAme/MarLing/assets/97426017/096f46ba-ed4d-47c8-a887-f3f3acd595d5)
+![image](https://github.com/csvpndev/marzban/assets/128266371/b56787d6-7e11-439f-a1ec-999a2f498def)
 
 Terima kasih orang baik! 🙏 
+
 
 </br>
