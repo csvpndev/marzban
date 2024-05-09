@@ -57,7 +57,7 @@ timedatectl set-timezone Asia/Jakarta;
 sudo bash -c "$(curl -sL https://github.com/GawrAme/Marzban-scripts/raw/master/marzban.sh)" @ install
 
 #Install Subs
-wget -N -P /var/lib/marzban/templates/subscription/  https://raw.githubusercontent.com/GawrAme/MarLing/main/index.html
+wget -N -P /opt/marzban/  https://raw.githubusercontent.com/csvpndev/marzban/main/index.html
 
 #install env
 wget -O /opt/marzban/.env "https://raw.githubusercontent.com/GawrAme/MarLing/main/env"
@@ -71,7 +71,7 @@ wget -O /usr/bin/cekservice "https://raw.githubusercontent.com/GawrAme/MarLing/m
 chmod +x /usr/bin/cekservice
 
 #install compose
-wget -O /opt/marzban/docker-compose.yml "https://raw.githubusercontent.com/GawrAme/MarLing/main/docker-compose.yml"
+wget -O /opt/marzban/docker-compose.yml "https://raw.githubusercontent.com/csvpndev/marzban/main/docker-compose.yml"
 
 #Install VNSTAT
 apt -y install vnstat
@@ -95,12 +95,12 @@ sudo apt-get install speedtest -y
 #install nginx
 apt install nginx -y
 rm /etc/nginx/conf.d/default.conf
-wget -O /etc/nginx/nginx.conf "https://raw.githubusercontent.com/GawrAme/MarLing/main/nginx.conf"
+wget -O /etc/nginx/nginx.conf "https://raw.githubusercontent.com/csvpndev/marzban/main/nginx.conf"
 wget -O /etc/nginx/conf.d/vps.conf "https://raw.githubusercontent.com/GawrAme/MarLing/main/vps.conf"
 wget -O /etc/nginx/conf.d/xray.conf "https://raw.githubusercontent.com/GawrAme/MarLing/main/xray.conf"
 systemctl enable nginx
 mkdir -p /var/www/html
-echo "<pre>Setup by LingVPN</pre>" > /var/www/html/index.html
+echo "<pre>Cobek Sawit Official</pre>" > /var/www/html/index.html
 systemctl start nginx
 
 #install socat
