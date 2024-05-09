@@ -96,8 +96,8 @@ sudo apt-get install speedtest -y
 apt install nginx -y
 rm /etc/nginx/conf.d/default.conf
 wget -O /etc/nginx/nginx.conf "https://raw.githubusercontent.com/csvpndev/marzban/main/nginx.conf"
-wget -O /etc/nginx/conf.d/vps.conf "https://raw.githubusercontent.com/GawrAme/MarLing/main/vps.conf"
-wget -O /etc/nginx/conf.d/xray.conf "https://raw.githubusercontent.com/GawrAme/MarLing/main/xray.conf"
+wget -O /etc/nginx/conf.d/vps.conf "https://raw.githubusercontent.com/csvpndev/marzban/main/vps.conf"
+wget -O /etc/nginx/conf.d/xray.conf "https://raw.githubusercontent.com/csvpndev/marzban/main/xray.conf"
 systemctl enable nginx
 mkdir -p /var/www/html
 echo "<pre>Cobek Sawit Official</pre>" > /var/www/html/index.html
