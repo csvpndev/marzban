@@ -134,7 +134,7 @@
       "streamSettings": {
         "network": "grpc",
         "grpcSettings": {
-          "serviceName": "trojan-service",
+          "serviceName": "trojan-grpc",
           "acceptProxyProtocol": true,
           "multiMode": true
         }
@@ -167,7 +167,7 @@
         "security": "none",
         "grpcSettings": {
           "acceptProxyProtocol": true,
-          "serviceName": "vmess-service",
+          "serviceName": "vmess-grpc",
           "multiMode": true
         }
       },
@@ -199,7 +199,7 @@
         "security": "none",
         "grpcSettings": {
           "acceptProxyProtocol": true,
-          "serviceName": "vless-service",
+          "serviceName": "vless-grpc",
           "multiMode": true
         }
       },
@@ -219,6 +219,13 @@
       "protocol": "freedom",
       "settings": {
         "domainStrategy": "UseIPv4"
+      }
+    },
+     {
+      "tag": "IPv6-Out",
+      "protocol": "freedom",
+      "settings": {
+        "domainStrategy": "UseIPv6"
       }
     },
     {
